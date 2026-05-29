@@ -1,0 +1,20 @@
+# BEV Tracking Baseline Metrics
+
+| Metric | Value |
+| --- | ---: |
+| `tp` | 314 |
+| `fp` | 6 |
+| `fn` | 86 |
+| `precision` | 0.98125 |
+| `recall` | 0.785 |
+| `f1` | 0.872222 |
+| `mean_center_error_m` | 0.170258 |
+| `track_tp` | 311 |
+| `track_fp` | 0 |
+| `track_fn` | 89 |
+| `id_switches` | 12 |
+| `mota` | 0.7475 |
+| `motp_center_error_m` | 0.202984 |
+| `mostly_tracked_gt` | 5 |
+| `frames` | 80 |
+| `seed` | 7 |

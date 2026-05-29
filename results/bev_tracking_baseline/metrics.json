@@ -1,0 +1,18 @@
+{
+  "tp": 314.0,
+  "fp": 6.0,
+  "fn": 86.0,
+  "precision": 0.98125,
+  "recall": 0.785,
+  "f1": 0.8722222222222223,
+  "mean_center_error_m": 0.17025831966307964,
+  "track_tp": 311.0,
+  "track_fp": 0.0,
+  "track_fn": 89.0,
+  "id_switches": 12.0,
+  "mota": 0.7475,
+  "motp_center_error_m": 0.2029838385562026,
+  "mostly_tracked_gt": 5.0,
+  "frames": 80.0,
+  "seed": 7.0
+}
