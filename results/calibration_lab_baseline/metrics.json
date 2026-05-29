@@ -1,0 +1,10 @@
+{
+  "num_correspondences": 104.0,
+  "noise_px": 1.2,
+  "initial_rmse_px": 49.57973620667131,
+  "optimized_rmse_px": 1.5837724939671811,
+  "initial_rotation_error_deg": 5.695499478114754,
+  "optimized_rotation_error_deg": 0.048843828501228724,
+  "initial_translation_error_m": 0.5257375771237967,
+  "optimized_translation_error_m": 0.010799026683803614
+}

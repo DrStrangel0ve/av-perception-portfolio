@@ -1,0 +1,2 @@
+num_correspondences,noise_px,initial_rmse_px,optimized_rmse_px,initial_rotation_error_deg,optimized_rotation_error_deg,initial_translation_error_m,optimized_translation_error_m
+104.0,1.2,49.57973620667131,1.5837724939671811,5.695499478114754,0.048843828501228724,0.5257375771237967,0.010799026683803614

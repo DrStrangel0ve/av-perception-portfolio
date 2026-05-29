@@ -19,13 +19,29 @@ Next improvements:
 
 ## Project 2: Camera-LiDAR Calibration Lab
 
+Status: baseline complete.
+
 Goal: show understanding of coordinate frames, projection, transforms, and optimization.
 
-- Generate camera intrinsics/extrinsics and 3D boxes.
-- Render projected LiDAR/box overlays.
-- Perturb extrinsics.
-- Optimize yaw/pitch/roll/translation from 2D-3D correspondences.
-- Report reprojection error before/after.
+- Generate camera intrinsics/extrinsics and 3D calibration points. Done.
+- Render projected LiDAR/correspondence overlays. Done.
+- Perturb extrinsics. Done.
+- Optimize full 6DoF extrinsic from 2D-3D correspondences. Done.
+- Report reprojection error before/after. Done.
+
+Baseline:
+
+- 104 correspondences with 1.2 px observation noise.
+- Reprojection RMSE: 49.58 px to 1.58 px.
+- Rotation error: 5.70 deg to 0.049 deg.
+- Translation error: 0.526 m to 0.011 m.
+
+Next improvements:
+
+- robust outlier correspondences;
+- rolling-shutter or timestamp offset simulation;
+- multiple camera rigs;
+- calibration quality gates that fail unsafe extrinsics.
 
 ## Project 3: Occupancy Forecasting
 

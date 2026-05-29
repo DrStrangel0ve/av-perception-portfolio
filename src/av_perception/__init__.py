@@ -2,6 +2,7 @@
 
 __all__ = [
     "synthetic",
+    "calibration",
     "detector",
     "tracker",
     "metrics",
